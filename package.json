@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@payloadcms/db-mongodb": "beta",
+    "@payloadcms/next": "beta",
+    "@payloadcms/plugin-cloud": "beta",
+    "@payloadcms/richtext-lexical": "beta",
+    "graphql": "^16.8.1",
+    "next": "15.0.0-rc.1",
+    "payload": "beta",
     "react": "19.0.0-rc-cd22717c-20241013",
-    "react-dom": "19.0.0-rc-cd22717c-20241013",
-    "next": "15.0.0-rc.1"
+    "react-dom": "19.0.0-rc-cd22717c-20241013"
   },
   "devDependencies": {
     "typescript": "^5",
